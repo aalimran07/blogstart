@@ -1,0 +1,377 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-11-05 17:16+0600\n"
+"PO-Revision-Date: 2018-11-05 17:18+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.8\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;esc_html_e;esc_attr;esc_attr_e;_e;esc_html__;"
+"esc_html;esc_attr__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:21
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: comments.php:36
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: comments.php:70
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:54
+msgid "Primary"
+msgstr ""
+
+#: header.php:116
+msgid "write something"
+msgstr ""
+
+#: inc/comment-form.php:27
+msgid "Post Comment"
+msgstr ""
+
+#: inc/comment-form.php:29
+msgid "leave a Comment"
+msgstr ""
+
+#: inc/customizer.php:68
+msgid "Blogstart Settings"
+msgstr ""
+
+#: inc/customizer.php:69
+msgid "Customize Website Topbar Area"
+msgstr ""
+
+#: inc/register-sidebar.php:9
+msgid "Sidebar"
+msgstr ""
+
+#: inc/register-sidebar.php:11 inc/register-sidebar.php:20
+#: inc/register-sidebar.php:29 inc/register-sidebar.php:38
+msgid "Add widgets here."
+msgstr ""
+
+#: inc/register-sidebar.php:18
+msgid "Footer One"
+msgstr ""
+
+#: inc/register-sidebar.php:27
+msgid "Footer Two"
+msgstr ""
+
+#: inc/register-sidebar.php:36
+msgid "Footer Three"
+msgstr ""
+
+#: inc/template-functions.php:68 inc/widgets/about-author.php:120
+msgid "Facebook"
+msgstr ""
+
+#: inc/template-functions.php:69 inc/widgets/about-author.php:124
+msgid "Twitter"
+msgstr ""
+
+#: inc/template-functions.php:70
+msgid "Linkedin"
+msgstr ""
+
+#: inc/template-functions.php:71
+msgid "Google Plus"
+msgstr ""
+
+#: inc/template-functions.php:142
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/template-functions.php:145 inc/template-functions.php:258
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: inc/template-functions.php:150
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/template-functions.php:200
+msgid "Related Post"
+msgstr ""
+
+#: inc/template-tags.php:62
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:65
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: inc/template-tags.php:72
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: inc/template-tags.php:82
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/template-tags.php:99 template-parts/content-page.php:31
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: inc/template-tags.php:131 template-parts/featured-section.php:25
+msgid "Upload a featured Image or attachment"
+msgstr ""
+
+#: inc/themeoptions/featured.php:8
+msgid "Featured Section"
+msgstr ""
+
+#: inc/themeoptions/featured.php:9
+msgid "Customize your home page featured layout"
+msgstr ""
+
+#: inc/themeoptions/featured.php:21
+msgid "Featured Layout"
+msgstr ""
+
+#: inc/themeoptions/featured.php:22 inc/themeoptions/featured.php:46
+msgid ""
+"if you would like to enable featured layout select enable and for hide "
+"select Disable"
+msgstr ""
+
+#: inc/themeoptions/featured.php:33 inc/themeoptions/featured.php:45
+msgid "Featured Slider"
+msgstr ""
+
+#: inc/themeoptions/featured.php:34
+msgid "Customize your home page featured slider"
+msgstr ""
+
+#: inc/themeoptions/footer.php:9
+msgid "Copyright"
+msgstr ""
+
+#: inc/themeoptions/footer.php:10
+msgid "Customize Copyright Text"
+msgstr ""
+
+#: inc/themeoptions/footer.php:22
+msgid "Label"
+msgstr ""
+
+#: inc/themeoptions/footer.php:23
+msgid "Description"
+msgstr ""
+
+#: inc/themeoptions/topbar.php:8
+msgid "Social Link"
+msgstr ""
+
+#: inc/themeoptions/topbar.php:9
+msgid ""
+"Type link of your social profile. if you would not like to show them. then "
+"keep input empty"
+msgstr ""
+
+#: inc/themeoptions/topbar.php:20
+msgid "Facebook Link"
+msgstr ""
+
+#: inc/themeoptions/topbar.php:33
+msgid "twitter Link"
+msgstr ""
+
+#: inc/themeoptions/topbar.php:45
+msgid "pinterest Link"
+msgstr ""
+
+#: inc/themeoptions/topbar.php:57
+msgid "Google plus Link"
+msgstr ""
+
+#: inc/themeoptions/topbar.php:69
+msgid "youtube Link"
+msgstr ""
+
+#: inc/widgets/about-author.php:16
+msgid "Display Author Info"
+msgstr ""
+
+#: inc/widgets/about-author.php:17
+msgid "About Author"
+msgstr ""
+
+#: inc/widgets/about-author.php:28 inc/widgets/about-author.php:90
+#: inc/widgets/about-author.php:116
+msgid "About"
+msgstr ""
+
+#: inc/widgets/about-author.php:29 inc/widgets/about-author.php:91
+msgid "Type Something About You"
+msgstr ""
+
+#: inc/widgets/about-author.php:30 inc/widgets/about-author.php:92
+msgid "Author Name Here"
+msgstr ""
+
+#: inc/widgets/about-author.php:101
+msgid "Title"
+msgstr ""
+
+#: inc/widgets/about-author.php:105
+msgid "Choose Image"
+msgstr ""
+
+#: inc/widgets/about-author.php:106
+msgid "Image url"
+msgstr ""
+
+#: inc/widgets/about-author.php:112
+msgid "Author Name"
+msgstr ""
+
+#: inc/widgets/about-author.php:128
+msgid "LinkedIn"
+msgstr ""
+
+#: inc/widgets/about-author.php:132
+msgid "pinterest"
+msgstr ""
+
+#: inc/widgets/about-author.php:136
+msgid "instagram"
+msgstr ""
+
+#: inc/widgets/latest-post.php:15
+msgid "Latest Post Slider"
+msgstr ""
+
+#: inc/widgets/latest-post.php:16
+msgid "Display Latest Post Slider"
+msgstr ""
+
+#: inc/widgets/latest-post.php:66 template-parts/featured-section.php:41
+#: template-parts/featured-slider.php:20 template-parts/featured-subpost.php:28
+msgid "Read More"
+msgstr ""
+
+#: inc/widgets/latest-post.php:78 inc/widgets/popular-post.php:74
+#: inc/widgets/post-gallery.php:55
+msgid "No Post Found"
+msgstr ""
+
+#: inc/widgets/latest-post.php:98
+msgid "Latest Post"
+msgstr ""
+
+#: inc/widgets/latest-post.php:103 inc/widgets/popular-post.php:100
+#: inc/widgets/post-gallery.php:80
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/latest-post.php:107 inc/widgets/popular-post.php:104
+#: inc/widgets/post-gallery.php:84
+msgid "Post Count:"
+msgstr ""
+
+#: inc/widgets/latest-post.php:111 inc/widgets/popular-post.php:108
+msgid "Date Show:"
+msgstr ""
+
+#: inc/widgets/popular-post.php:15 inc/widgets/popular-post.php:95
+msgid "Popular Posts"
+msgstr ""
+
+#: inc/widgets/popular-post.php:16
+msgid "Blogstart Popular Posts"
+msgstr ""
+
+#: inc/widgets/post-gallery.php:15 inc/widgets/post-gallery.php:76
+msgid "Post Gallery"
+msgstr ""
+
+#: inc/widgets/post-gallery.php:16
+msgid "Blogstart Post Gallery"
+msgstr ""
+
+#: search.php:22
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: searchform.php:2
+msgid "Search..."
+msgstr ""
+
+#: template-parts/content-gallery.php:31
+msgid "Re-Upload Images to see here as slider. or upload a featured image"
+msgstr ""
+
+#: template-parts/content-gallery.php:56 template-parts/content-image.php:37
+#: template-parts/content-search.php:38 template-parts/content-single.php:30
+#: template-parts/content-video.php:39 template-parts/content.php:40
+msgid "Posted By"
+msgstr ""
+
+#: template-parts/content-gallery.php:58 template-parts/content-image.php:39
+#: template-parts/content-search.php:40 template-parts/content-video.php:41
+#: template-parts/content.php:42
+msgid "read more"
+msgstr ""
+
+#: template-parts/content-gallery.php:63 template-parts/content-image.php:44
+#: template-parts/content-search.php:45 template-parts/content-single.php:44
+#: template-parts/content-video.php:46 template-parts/content.php:47
+msgid "Share:"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:18 template-parts/content-single.php:36
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content.php:27
+msgid "Featured Post"
+msgstr ""
