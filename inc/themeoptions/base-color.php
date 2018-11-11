@@ -29,15 +29,37 @@ function blogstart_customize_register_for_color($wp_customize){
       'label'   => esc_html__( 'Base Background Color', 'blogstart' ),
     ) ) );
 
-    $wp_customize->add_setting( 'base_border_color', array(
+    $wp_customize->add_setting( 'navbar_background_color', array(
       'default'   => '',
       'transport' => 'refresh',
       'sanitize_callback'   => 'sanitize_hex_color'
     ) );
 
-    $wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'base_border_color', array(
+    $wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'navbar_background_color', array(
       'section' => 'colors',
-      'label'   => esc_html__( 'Base Border Color', 'blogstart' ),
+      'label'   => esc_html__( 'Navbar Background Color', 'blogstart' ),
+    ) ) );
+
+    $wp_customize->add_setting( 'menu_color', array(
+      'default'   => '',
+      'transport' => 'refresh',
+      'sanitize_callback'   => 'sanitize_hex_color'
+    ) );
+
+    $wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'menu_color', array(
+      'section' => 'colors',
+      'label'   => esc_html__( 'Menu Color', 'blogstart' ),
+    ) ) );
+
+    $wp_customize->add_setting( 'menu_hover_color', array(
+      'default'   => '',
+      'transport' => 'refresh',
+      'sanitize_callback'   => 'sanitize_hex_color'
+    ) );
+
+    $wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'menu_hover_color', array(
+      'section' => 'colors',
+      'label'   => esc_html__( 'Menu Hover Color', 'blogstart' ),
     ) ) );
 
     $wp_customize->add_setting( 'heading_tags_color', array(
@@ -73,6 +95,17 @@ function blogstart_customize_register_for_color($wp_customize){
       'label'   => esc_html__( 'Topbar text Color', 'blogstart' ),
     ) ) );
 
+    $wp_customize->add_setting( 'topbar_text_hover_color', array(
+      'default'   => '',
+      'transport' => 'refresh',
+      'sanitize_callback'   => 'sanitize_hex_color'
+    ) );
+
+    $wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'topbar_text_hover_color', array(
+      'section' => 'colors',
+      'label'   => esc_html__( 'Topbar text Hover Color', 'blogstart' ),
+    ) ) );
+
     $wp_customize->add_setting( 'footer_background_color', array(
       'default'   => '',
       'transport' => 'refresh',
@@ -92,7 +125,7 @@ function blogstart_customize_register_for_color($wp_customize){
 
     $wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'footer_text_color', array(
       'section' => 'colors',
-      'label'   => esc_html__( 'Footer Background Color', 'blogstart' ),
+      'label'   => esc_html__( 'Footer text Color', 'blogstart' ),
     ) ) );
 
     $wp_customize->add_setting( 'copyright_background_color', array(
@@ -116,17 +149,5 @@ function blogstart_customize_register_for_color($wp_customize){
       'section' => 'colors',
       'label'   => esc_html__( 'Copyright Text Color', 'blogstart' ),
     ) ) );
-
-    $wp_customize->add_setting( 'copyright_text_color', array(
-      'default'   => '',
-      'transport' => 'refresh',
-      'sanitize_callback'   => 'sanitize_hex_color'
-    ) );
-
-    $wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'copyright_text_color', array(
-      'section' => 'colors',
-      'label'   => esc_html__( 'Copyright Text Color', 'blogstart' ),
-    ) ) );
-
 
 }

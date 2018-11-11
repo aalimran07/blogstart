@@ -27,15 +27,54 @@ function blogstart_scripts() {
 		h1, h2, h3, h4, h5, h6 {
 			color: '.get_theme_mod('heading_tags_color').';
 		}
-		.widget_search button, .main-header .header-top{
+		.widget_search button{
 			background-color: '.get_theme_mod('base_background_color').';
 			color: '.get_theme_mod('base_text_color').';
+		}
+		.main-header .main-nav{
+			background-color: '.get_theme_mod('navbar_background_color').';
+		}
+		#cssmenu>ul>li>a{
+			color: '.get_theme_mod('menu_color').';
+		}
+		#cssmenu>ul>li:hover>a{
+			color: '.get_theme_mod('menu_hover_color').';
+		}
+		.double-line:before, .double-line:after{
+			background-color: '.get_theme_mod('base_background_color').';
+		}
+		.banner-post .big-post .big-post-text:before{
+			border-color: '.get_theme_mod('base_background_color').';
+		}
+		.main-header .header-top{
+			background-color: '.get_theme_mod('topbar_background_color').';
+			color: '.get_theme_mod('topbar_text_color').';
+		}
+		.main-header .header-top a{
+			color: '.get_theme_mod('topbar_text_color').';
+		}
+		.footer.footer-bottom{
+			background-color: '.get_theme_mod('copyright_background_color').';
+			color: '.get_theme_mod('copyright_text_color').';
+		}
+		.footer.footer .footer-top{
+			background-color: '.get_theme_mod('footer_background_color').';
+			color: '.get_theme_mod('footer_text_color').';
+		}
+		.footer.footer-bottom a{
+			color: '.get_theme_mod('copyright_text_color').';
 		}
 		#scrollup, .blog-area .single-blog.quotes-post i{
 			background-color: '.get_theme_mod('base_background_color').';
 			color: '.get_theme_mod('base_text_color').';
 		}
-		.main-header .header-top .icons a, mark.catagory, mark.admin, .required_icon a{
+		.main-header .header-top .icons a{
+			color: '.get_theme_mod('topbar_text_color').';
+		}
+		.main-header .header-top .icons a:hover i{
+			color: '.get_theme_mod('topbar_text_hover_color').';
+		}
+		mark.catagory, mark.admin, .required_icon a{
 			color: '.get_theme_mod('base_text_color').';
 		}
 		.featured-text mark{
