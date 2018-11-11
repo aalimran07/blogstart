@@ -1,19 +1,12 @@
 === blogstart ===
 
-Contributors: automattic
-Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
-
-Requires at least: 4.5
-Tested up to: 4.8
-Stable tag: 1.0.0
-License: GNU General Public License v2 or later
-License URI: LICENSE
-
-A starter theme called blogstart.
+Thank you for downloading Blogstart WordPress theme
 
 == Description ==
 
-Description
+this theme was designed to direct attention to the content, rather than to show off and stand in the way. Precise typhography combined with clean looks and modest animation makes sure your I deas are delivered smoothly and in style. 
+
+This is fully hand-coded theme. I have built it for my client. if you found any kind of bugs there. please feel free to let me know. 
 
 == Installation ==
 
@@ -25,7 +18,7 @@ Description
 
 = Does this theme support any plugins? =
 
-blogstart includes support for Infinite Scroll in Jetpack.
+This theme fully comportable to work with any WordPress plugins. 
 
 == Changelog ==
 
