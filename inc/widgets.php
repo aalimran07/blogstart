@@ -18,3 +18,8 @@ require get_template_directory() . '/inc/widgets/post-gallery.php';
  * Blogstart Latest Post Slider
  */
 require get_template_directory() . '/inc/widgets/latest-post.php';
+
+/**
+ * Blogstart Latest Post Slider
+ */
+require get_template_directory() . '/inc/widgets/subscribe.php';

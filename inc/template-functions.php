@@ -256,11 +256,10 @@ if ( ! function_exists( 'blogstart_required_link' ) ) :
  */
 function blogstart_required_link() {
     $text = sprintf( __( '%s', 'blogstart' ),
-        '<a href="http://authorwrite.adazing.com/"><div class="fa fa-check"></div></a>'
+        '<a href="'.esc_url('https://www.adazing.com/how-to-start-a-blog/').'"><div class="fa fa-check-circle-o"></div></a>'
     );
 
     echo apply_filters( 'footer_credits', $text );
 }
 endif;
-
 

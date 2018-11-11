@@ -15,7 +15,7 @@ $wp_customize->add_setting( 'copyright_content', array(
 	'default'              => '<p> 2018 <a href="'.home_url('/').'">zoomdev</a>. All rights reserved.</p>',
 	'transport'            => 'refresh',
 	'capability'           => 'edit_theme_options',
-	'sanitize_callback'		=> 'esc_attr'
+	'sanitize_callback'		=> 'wp_filter_nohtml_kses'
 ) );
 
 $wp_customize->add_control( 'copyright_content', array(

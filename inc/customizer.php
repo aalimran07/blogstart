@@ -84,3 +84,9 @@ if ( ! function_exists( 'blogstart_customize_name_panel_section' ) ) {
 	}
 }
 
+
+
+/*
+ * Theme Base Color
+ */
+require get_template_directory() . '/inc/themeoptions/base-color.php';

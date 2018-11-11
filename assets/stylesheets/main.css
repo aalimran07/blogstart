@@ -677,7 +677,7 @@ mark.admin {
 
 .main-header .site-branding {
     height: 110px;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 .main-header .site-branding h1.site-title {
@@ -2186,7 +2186,7 @@ form.post-password-form input[type="submit"] {
 }
 
 .required_icon a {
-    color: #499b6e;
+    color: #5cca8d;
 }
 
 .positionrelative {
@@ -2261,4 +2261,8 @@ a.custom-logo-link {
     font-size: 18px;
     line-height: normal;
     font-family: "Droid Serif", serif;
+}
+.subscribe-notice {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }

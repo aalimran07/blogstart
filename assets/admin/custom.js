@@ -1,6 +1,6 @@
 (function($){
     $(document).ready(function(){
-        $('button#about_img').on('click', function(e){
+        $('button#about_img, button#banner_image').on('click', function(e){
             e.preventDefault();
             var imageuploader = wp.media({
                 'title': 'Upload Author Image',

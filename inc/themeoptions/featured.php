@@ -10,10 +10,16 @@ $wp_customize->add_section( 'featured_settings', array(
 	'capability'     => 'edit_theme_options',
 ) );
 
+function blogstart_sanitize_radio( $input, $setting ){
+	$input = sanitize_key($input);
+	$choices = $setting->manager->get_control( $setting->id )->choices;
+	return ( array_key_exists( $input, $choices ) ? $input : $setting->default );
+}
+
 $wp_customize->add_setting( 'featured_settings', array(
 	'transport'            => 'refresh',
 	'capability'           => 'edit_theme_options',
-	'sanitize_callback'		=> 'esc_attr',
+	'sanitize_callback'		=> 'blogstart_sanitize_radio',
 	'default'     => 'disable',
 ) );
 
@@ -37,7 +43,7 @@ $wp_customize->add_section( 'featured_slider', array(
 $wp_customize->add_setting( 'featured_slider', array(
 	'transport'            => 'refresh',
 	'capability'           => 'edit_theme_options',
-	'sanitize_callback'		=> 'esc_attr',
+	'sanitize_callback'		=> 'blogstart_sanitize_radio',
 	'default'     => 'disable',
 ) );
 

@@ -28,6 +28,11 @@
             <div class="container h-100">
                 <div class="row justify-content-between align-items-center h-100">
                     <div class="icons col col-sm-6">
+                        
+                    </div>
+                    <!-- .select-lang -->
+                   <div class="col col-sm-6 d-flex justify-content-md-end">
+                       <div class="icons col col-sm-6">
                         <?php
                        $facebook = get_theme_mod( 'facebook' );
                         if (!empty($facebook)) : ?>
@@ -52,19 +57,14 @@
                             <a href="<?php echo esc_url($youtube);?>"><i class="fa fa-youtube"></i></a>
                         <?php endif; ?>
                     </div>
-                    <!-- .select-lang -->
-                    <form class="col col-sm-6 d-flex justify-content-md-end select-lang" action="<?php echo esc_url(home_url());?>" method="get">
-                        <div class="form-item">
-                            <input class="country_selector" type="text">
-                        </div>
-                    </form>
+                   </div>
                     <!-- //.select-lang -->
                 </div>
             </div>
         </div>
         <!-- //.header-top-->
         <!-- .site-branding -->
-        <div class="site-branding">
+        <div class="site-branding" style="background-image: url(<?php echo header_image();?>)">
             <nav class="h-100 navbar">
                 <div class="container h-100">
                     <div class="row w-100">

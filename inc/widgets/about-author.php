@@ -14,7 +14,7 @@ class Blogstart_About_Author extends WP_Widget
     public function __construct()
     {
         $widget_ops = array( 'classname' => 'blogstart_about_author', 'description' => esc_html__('Display Author Info', 'blogstart') );
-        parent::__construct('blogall_about', esc_html__('About Author', 'blogstart'), $widget_ops);
+        parent::__construct('blogstart_about', esc_html__('About Author', 'blogstart'), $widget_ops);
     }
     /**
      * Outputs the HTML for this widget.

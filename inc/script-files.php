@@ -2,6 +2,7 @@
 /**
  * Enqueue scripts and styles.
  */
+
 function blogstart_scripts() {
 	wp_enqueue_style( 'blogstart-style', get_stylesheet_uri() );
 	wp_enqueue_style( 'droid', 'https://fonts.googleapis.com/css?family=Droid+Serif:400,400i');
@@ -14,8 +15,38 @@ function blogstart_scripts() {
 	wp_enqueue_style( 'countryselect', get_theme_file_uri('assets/stylesheets/vendor/resources/countrySelect.min.css') );
 	wp_enqueue_style( 'fancybox', get_theme_file_uri('assets/stylesheets/vendor/resources/jquery.fancybox.min.css') );
 	wp_enqueue_style( 'owl-carousel', get_theme_file_uri('assets/stylesheets/vendor/resources/owl.carousel.min.css') );
-	wp_enqueue_style( 'blogstart', get_theme_file_uri('assets/stylesheets/vendor/resources/normalize.css') );
+	wp_enqueue_style( 'blogstart-normalize', get_theme_file_uri('assets/stylesheets/vendor/resources/normalize.css') );
 	wp_enqueue_style('blogstart-mian', get_theme_file_uri( '/assets/stylesheets/main.css' ));
+	$custom_css = '.posted-date{
+			background-color: '.get_theme_mod('base_background_color').';
+			color: '.get_theme_mod('base_text_color').';
+		}
+		.widget-title:before {
+			background-color: '.get_theme_mod('base_background_color').';
+		}
+		h1, h2, h3, h4, h5, h6 {
+			color: '.get_theme_mod('heading_tags_color').';
+		}
+		.widget_search button, .main-header .header-top{
+			background-color: '.get_theme_mod('base_background_color').';
+			color: '.get_theme_mod('base_text_color').';
+		}
+		#scrollup, .blog-area .single-blog.quotes-post i{
+			background-color: '.get_theme_mod('base_background_color').';
+			color: '.get_theme_mod('base_text_color').';
+		}
+		.main-header .header-top .icons a, mark.catagory, mark.admin, .required_icon a{
+			color: '.get_theme_mod('base_text_color').';
+		}
+		.featured-text mark{
+			background-color: '.get_theme_mod('base_background_color').';
+			color: '.get_theme_mod('base_text_color').';
+		}
+		.blog-area .single-blog.quotes-post, blockquote{
+			border-color: '.get_theme_mod('base_text_color').';
+		}
+		';
+	wp_add_inline_style( 'blogstart-mian', $custom_css );
 	wp_enqueue_script( 'blogstart-plugins', get_template_directory_uri() . '/assets/js/plugins.js', array('jquery'), '20151215', true );
 	wp_enqueue_script( 'blogstart-main', get_template_directory_uri() . '/assets/js/main.js', array('jquery'), '20151215', true );
 	wp_enqueue_script( 'blogstart-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
