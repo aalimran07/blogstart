@@ -12,7 +12,7 @@ $wp_customize->add_section( 'footer_content', array(
 ) );
 
 $wp_customize->add_setting( 'copyright_content', array(
-	'default'              => '<p> 2018 <a href="'.home_url('/').'">zoomdev</a>. All rights reserved.</p>',
+	'default'              => '<p> Copyright 2018 All rights reserved. </p>',
 	'transport'            => 'refresh',
 	'capability'           => 'edit_theme_options',
 	'sanitize_callback'		=> 'wp_filter_nohtml_kses'
