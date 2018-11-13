@@ -18,71 +18,35 @@ function blogstart_scripts() {
 	wp_enqueue_style( 'blogstart-normalize', get_theme_file_uri('assets/stylesheets/vendor/resources/normalize.css') );
 	wp_enqueue_style('blogstart-mian', get_theme_file_uri( '/assets/stylesheets/main.css' ));
 	$custom_css = '.posted-date{
-			background-color: '.get_theme_mod('base_background_color').';
-			color: '.get_theme_mod('base_text_color').';
+			background-color: '.get_theme_mod('base_color').';
 		}
-		.widget-title:before {
-			background-color: '.get_theme_mod('base_background_color').';
-		}
-		h1, h2, h3, h4, h5, h6 {
-			color: '.get_theme_mod('heading_tags_color').';
+		.widget-title:before, .double-line:before, .double-line:after {
+			background-color: '.get_theme_mod('base_color').';
 		}
 		.widget_search button{
-			background-color: '.get_theme_mod('base_background_color').';
-			color: '.get_theme_mod('base_text_color').';
+			background-color: '.get_theme_mod('base_color').';
 		}
-		.main-header .main-nav{
-			background-color: '.get_theme_mod('navbar_background_color').';
-		}
-		#cssmenu>ul>li>a{
-			color: '.get_theme_mod('menu_color').';
-		}
-		#cssmenu>ul>li:hover>a{
-			color: '.get_theme_mod('menu_hover_color').';
-		}
-		.double-line:before, .double-line:after{
-			background-color: '.get_theme_mod('base_background_color').';
-		}
-		.banner-post .big-post .big-post-text:before{
-			border-color: '.get_theme_mod('base_background_color').';
-		}
-		.main-header .header-top{
-			background-color: '.get_theme_mod('topbar_background_color').';
-			color: '.get_theme_mod('topbar_text_color').';
-		}
-		.main-header .header-top a{
-			color: '.get_theme_mod('topbar_text_color').';
-		}
-		.footer.footer-bottom{
-			background-color: '.get_theme_mod('copyright_background_color').';
-			color: '.get_theme_mod('copyright_text_color').';
-		}
-		.footer.footer .footer-top{
-			background-color: '.get_theme_mod('footer_background_color').';
-			color: '.get_theme_mod('footer_text_color').';
-		}
-		.footer.footer-bottom a{
-			color: '.get_theme_mod('copyright_text_color').';
+		
+		.footer.footer-bottom a, .banner-post .big-post .big-post-text a.read-more:hover{
+			color: '.get_theme_mod('base_color').';
 		}
 		#scrollup, .blog-area .single-blog.quotes-post i{
-			background-color: '.get_theme_mod('base_background_color').';
-			color: '.get_theme_mod('base_text_color').';
+			background-color: '.get_theme_mod('base_color').';
 		}
-		.main-header .header-top .icons a{
-			color: '.get_theme_mod('topbar_text_color').';
+		.main-header .header-top .icons a i{
+			color: '.get_theme_mod('base_color').';
 		}
-		.main-header .header-top .icons a:hover i{
-			color: '.get_theme_mod('topbar_text_hover_color').';
+		mark.catagory, mark.admin, .required_icon a, .popular-post li .post-info span, .middle-sidebar .sidebar-widget ul li a:hover, #cssmenu>ul>li:hover>a, .banner-post .banner-sidebar .sub-post .sub-post-text .read-more:hover, .catagory-area .catagory .read-more:hover, #cssmenu ul ul li:hover>a, #cssmenu ul ul li a:hover, .card-list .card-footer .tags a:hover, nav.blog-pagination li a:hover, .share-icons i:hover, .icon-list i:hover{
+			color: '.get_theme_mod('base_color').';
 		}
-		mark.catagory, mark.admin, .required_icon a{
-			color: '.get_theme_mod('base_text_color').';
+		.popular-post li:hover .post-info h3, .read-more:hover{
+			color: '.get_theme_mod('base_color').' !important;
 		}
-		.featured-text mark{
-			background-color: '.get_theme_mod('base_background_color').';
-			color: '.get_theme_mod('base_text_color').';
+		.featured-text mark, .middle-sidebar .sidebar-widget .latest-post.owl-carousel .owl-dots .owl-dot, .middle-content .blog-details-area .comments-area form button.submit{
+			background-color: '.get_theme_mod('base_color').';
 		}
-		.blog-area .single-blog.quotes-post, blockquote{
-			border-color: '.get_theme_mod('base_text_color').';
+		.blog-area .single-blog.quotes-post, blockquote, .banner-post .big-post .big-post-text:before, .commenter-image img{
+			border-color: '.get_theme_mod('base_color').';
 		}
 		';
 	wp_add_inline_style( 'blogstart-mian', $custom_css );
